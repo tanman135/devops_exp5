@@ -10,6 +10,13 @@ if __name__ == "__main__":
         "Was it a car or a cat I saw?",
         "Hello World"
     ]
+
+    # MODIFIED PART
+    # Ask user for input
+    user_input = input("Enter a string to check palindrome (or press Enter to skip): ")
+    if user_input:
+        test_strings.append(user_input)
+
     for text in test_strings:
         result = "Palindrome" if is_palindrome(text) else "Not a palindrome"
-        print(f"{text!r} -> {result}")
+        print(f"{text!r} -> {result} (Length: {len(text)})")
