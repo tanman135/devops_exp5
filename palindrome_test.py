@@ -11,11 +11,11 @@ if __name__ == "__main__":
         "Hello World"
     ]
 
-    # MODIFIED PART
-    # Ask user for input
-    user_input = input("Enter a string to check palindrome (or press Enter to skip): ")
-    if user_input:
-        test_strings.append(user_input)
+    # # MODIFIED PART
+    # # Ask user for input
+    # user_input = input("Enter a string to check palindrome (or press Enter to skip): ")
+    # if user_input:
+    #     test_strings.append(user_input)
 
     for text in test_strings:
         result = "Palindrome" if is_palindrome(text) else "Not a palindrome"
