@@ -1,5 +1,6 @@
 public class HelloWorld {
         public static void main(String[] args) {
-        System.out.println("Hello, Jenkins!");
+        // Change made
+        System.out.println("Hello, Jenkins! Build 2");
     }
 }
